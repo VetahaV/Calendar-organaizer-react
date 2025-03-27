@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Calendar-organaizer-react/static/css/main.ccc8bd33.css",
-    "main.js": "/Calendar-organaizer-react/static/js/main.270fedb2.js",
+    "main.css": "/Calendar-organaizer-react/static/css/main.a4dad2c6.css",
+    "main.js": "/Calendar-organaizer-react/static/js/main.7857b54e.js",
     "static/media/sticker-today.png": "/Calendar-organaizer-react/static/media/sticker-today.6fc2ba89154e10ab1377.png",
     "static/media/del.svg": "/Calendar-organaizer-react/static/media/del.277fb94309672bb24e97.svg",
     "static/media/stickers.png": "/Calendar-organaizer-react/static/media/stickers.9bd66d64b86089749e3c.png",
     "static/media/arrow_circle_up_icon_246075.svg": "/Calendar-organaizer-react/static/media/arrow_circle_up_icon_246075.a163fcec6addccb1574d.svg",
     "index.html": "/Calendar-organaizer-react/index.html",
-    "main.ccc8bd33.css.map": "/Calendar-organaizer-react/static/css/main.ccc8bd33.css.map",
-    "main.270fedb2.js.map": "/Calendar-organaizer-react/static/js/main.270fedb2.js.map"
+    "main.a4dad2c6.css.map": "/Calendar-organaizer-react/static/css/main.a4dad2c6.css.map",
+    "main.7857b54e.js.map": "/Calendar-organaizer-react/static/js/main.7857b54e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccc8bd33.css",
-    "static/js/main.270fedb2.js"
+    "static/css/main.a4dad2c6.css",
+    "static/js/main.7857b54e.js"
   ]
 }
