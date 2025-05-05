@@ -1,0 +1,71 @@
+.wrapper {
+    margin: 2vw 0 ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5vw double grey;
+    button {
+        background-size: cover;
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+    }
+}
+.timeBlock{
+    font-style: italic;
+    text-align: end;
+    font-size: 2.5vw;
+    & span{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3vw;
+    }
+}
+.text{
+    width: 45vw;
+    font-size: 3vw;
+    font-family: cursive;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.completeBtn{
+    border: 2px solid #92de92;
+    text-align: center;
+    color: green;
+    font-weight: 800;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.completeBtnDone{
+    background-color: green;
+    color: white;
+    font-weight: 800;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.delete{
+    background-image: url('../../images/del.svg');
+    border-color: red;
+}
+.completeBtn:hover, .completeBtnDone:hover{
+    background-color:#92de92 ;
+} 
+.delete:hover{
+    background-color: red;
+    transform: scale(1.2);
+}
+.complete{
+    text-decoration: line-through;
+}
+.hide{
+    display: none;
+}
+.edit{
+    text-align: center;
+   
+}

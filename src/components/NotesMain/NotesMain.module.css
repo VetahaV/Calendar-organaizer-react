@@ -1,0 +1,13 @@
+.wrapper{
+    margin: 3vw 5vw;
+    text-align: center;
+    height: 100vw;
+}
+.proposition{
+    text-align: left;
+    font-style: italic;
+    p{
+        font-size: 3vw;
+    }
+}
+

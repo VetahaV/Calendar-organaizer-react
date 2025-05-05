@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import CalendarMain from './components/CalendarMain/CalendarMain.jsx';
+import DateBlock from './components/DateBlock/DateBlock.jsx';
+import Btn from './components/DateBtn/Btn.jsx';
+import NotesMain from './components/NotesMain/NotesMain.jsx';
 
 function App() {
+  const [date, setDate] = useState(new Date());
+  const [deal, setDeal] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='wrapper'>
+      <div className='backBtn'>
+        <a href="#"></a>
+      </div>
+      <div className='header'>
+        <Btn arrow={'<< '} date={date} setDate={setDate} />
+        <DateBlock date={date} />
+        <Btn arrow={' >>'} date={date} setDate={setDate} />
+      </div>
+      <CalendarMain date={date} deal={deal} setDeal={setDeal} />
+      <NotesMain deal={deal} setDeal={setDeal} />
     </div>
   );
 }

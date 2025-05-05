@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    li{
+        box-sizing: border-box;
+        width: 7vw;
+        font-size: 1.5vw;
+        text-align: center;
+        align-content: baseline;
+        overflow-wrap: break-word;
+        line-height: 1.3vw;
+    }
+}
